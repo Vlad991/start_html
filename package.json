@@ -1,0 +1,9 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "description": "project_description",
+  "main": "index.js",
+  "repository": "https://github.com/Vlad991/start_html",
+  "author": "Kuzma Vladislav <vladkuzma99@gmail.com>",
+  "license": "MIT"
+}
