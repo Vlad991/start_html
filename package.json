@@ -1,0 +1,19 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "description": "project_description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad991/start_html.git"
+  },
+  "author": "Kuzma Vladislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad991/start_html/issues"
+  },
+  "homepage": "https://github.com/Vlad991/start_html#readme"
+}
