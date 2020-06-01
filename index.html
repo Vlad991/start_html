@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/main-page.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./vendor/flickity/flickity.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-page.css">
+
+    <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>Hello World</h1>
 
+<!-----------Tab Example----------->
+<div class="tab-wrap">
+    <ul class="tab-links">
+        <li data-tab="1">item1</li>
+        <li data-tab="2">item2</li>
+        <li data-tab="3">item3</li>
+    </ul>
+    <div class="tab-items">
+        <div data-tab="1">item1</div>
+        <div data-tab="2">item2</div>
+        <div data-tab="3">item3</div>
+    </div>
+</div>
 
+<!-----------Collapse Example----------->
+<div class="collapse-wrap">
+    <div class="collapse-selected">selected-item</div>
+    <div class="collapse-items">
+        <div>item1</div>
+        <div>item2</div>
+        <div>item3</div>
+    </div>
+</div>
+
+<!-----------Collapse-Select Example----------->
+<div class="collapse-select-wrap">
+    <input type="hidden" value="1">
+    <div class="collapse-selected"><span>select-item</span></div>
+    <div class="collapse-items">
+        <div data-value="1"><span>item1</span></div>
+        <div data-value="2"><span>item2</span></div>
+        <div data-value="3"><span>item3</span></div>
+    </div>
+</div>
+
+<script src="./vendor/flickity/flickity.pkgd.min.js"></script>
+<script type="module" src="./js/index.js"></script>
 </body>
 </html>
